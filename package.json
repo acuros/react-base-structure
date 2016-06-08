@@ -13,6 +13,7 @@
     "less": "^2.7.1",
     "less-loader": "^2.2.3",
     "react": "15.1.0",
+    "react-dom": "^15.1.0",
     "react-router": "^2.4.1",
     "reflux": "^0.4.1",
     "reflux-promise": "^1.0.4",

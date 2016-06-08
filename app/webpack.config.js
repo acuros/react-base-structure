@@ -25,7 +25,5 @@ module.exports = {
         new webpack.optimize.CommonsChunkPlugin('common', 'common.js'),
     ],
     externals: {
-        'react': 'React',
-        'jquery': '$',
     }
 };
