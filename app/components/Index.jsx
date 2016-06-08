@@ -7,7 +7,7 @@ var SampleAction = require('actions/SampleAction');
 
 module.exports = React.createClass({
     mixins: [
-        Reflux.connect(SampleStore, 'sample'),
+        Reflux.connect(SampleStore, 'sample')
     ],
     componentDidMount: function () {
         SampleAction.init();
